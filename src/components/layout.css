@@ -1,6 +1,6 @@
 :root {
   --mainGreen: #49a544;
-  --mainGray: #ece8dc;
+  --mainGray: rgb(236, 232, 220);
   --mainWhite: #fff;
   --mainDark: #222;
 }
@@ -9,14 +9,16 @@ body {
   color: var(--mainDark);
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Courier New", Courier, monospace !important;
+  font-family: "Pacifico", cursive !important;
   letter-spacing: 4px !important;
+  text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.8);
 }
 
 .text-green {
@@ -26,4 +28,17 @@ h6 {
   cursor: pointer;
   color: var(--mainGreen);
   font-size: 2rem;
+}
+.default-background {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    rgba(208, 240, 192, 0.2),
+    rgba(208, 240, 192, 0.2)
+  );
+  background-position: center;
+  background-size: cover;
+  opacity: 1 !important;
 }
