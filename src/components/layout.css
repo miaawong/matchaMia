@@ -1,6 +1,6 @@
 :root {
   --mainGreen: #49a544;
-  --mainGray: rgb(236, 232, 220);
+  --mainGray: #808080;
   --mainWhite: #fff;
   --mainDark: #222;
 }
@@ -18,7 +18,9 @@ h5,
 h6 {
   font-family: "Pacifico", cursive !important;
   letter-spacing: 4px !important;
-  text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.8);
+}
+.titleName {
+  text-shadow: 2px 3px 3px rgba(255, 255, 255, 0.5);
 }
 
 .text-green {
@@ -29,8 +31,9 @@ h6 {
   color: var(--mainGreen);
   font-size: 2rem;
 }
-.default-background {
-  min-height: 50vh;
+.default-background,
+.about {
+  min-height: 75vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,4 +44,18 @@ h6 {
   background-position: center;
   background-size: cover;
   opacity: 1 !important;
+}
+.about {
+  min-height: 50vh;
+}
+.btn-green {
+  color: var(--mainGreen);
+  border-color: var(--mainGreen);
+}
+.btn-green:hover {
+  background: var(--mainGreen);
+  color: var(--mainDark);
+}
+.footer {
+  background: var(--mainGray);
 }
