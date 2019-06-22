@@ -19,6 +19,6 @@ export default function BackgroundSection({
 }
 
 BackgroundSection.defaultProps = {
-  title: "default title",
+  title: "",
   styleClass: "default-background",
 }
