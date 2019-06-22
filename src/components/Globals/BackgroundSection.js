@@ -10,7 +10,7 @@ export default function BackgroundSection({
 }) {
   return (
     <BackgroundImage className={styleClass} fluid={img}>
-      <h1 className="title text-dark text-center display-4 font-weight-bold titleName">
+      <h1 className="title text-white text-center display-3 font-weight-bold titleName">
         {title}
       </h1>
       {children}
@@ -19,6 +19,6 @@ export default function BackgroundSection({
 }
 
 BackgroundSection.defaultProps = {
-  title: "",
+  title: "Matcha Mia",
   styleClass: "default-background",
 }

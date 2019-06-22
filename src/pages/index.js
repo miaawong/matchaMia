@@ -6,6 +6,8 @@ import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection"
 import Info from "../components/Home/Info"
 import Menu from "../components/Home/Menu"
+import Products from "../components/Home/Products"
+import Contact from "../components/Home/Contact"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -13,12 +15,14 @@ const IndexPage = ({ data }) => (
     <BackgroundSection img={data.img.childImageSharp.fluid} />
     <Info />
     <Menu items={data.menu} />
+    <Products />
+    <Contact />
   </Layout>
 )
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "matchabackgroundimage.jpg" }) {
+    img: file(relativePath: { eq: "matchabackground2.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG
