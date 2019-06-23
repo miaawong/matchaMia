@@ -12,6 +12,7 @@
     "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sharp": "^2.1.7-reporter-npm.9",
+    "gatsby-plugin-snipcart": "^1.0.6",
     "gatsby-source-contentful": "^2.0.73",
     "gatsby-source-filesystem": "^2.0.41-reporter-npm.9",
     "gatsby-transformer-sharp": "^2.1.21",
