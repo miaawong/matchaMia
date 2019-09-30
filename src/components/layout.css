@@ -20,9 +20,6 @@ h6 {
   font-family: "Pacifico", cursive !important;
   letter-spacing: 4px !important;
 }
-/* .titleName {
-  text-shadow: 2px 3px 3px rgba(255, 255, 255, 0.5);
-} */
 
 .text-green {
   color: var(--mainGreen);
