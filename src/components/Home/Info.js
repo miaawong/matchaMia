@@ -9,7 +9,7 @@ export default function Info() {
         <Title title="our story"></Title>
         <div className="row">
           <div className="col-10 col-sm-8 mx-auto text-center">
-            <p className="lead text-muted mb-5">
+            <p className="lead text-white mb-5">
               90's tilde 3 wolf moon semiotics photo booth. Raw denim freegan
               asymmetrical, farm-to-table post-ironic venmo tilde artisan 3 wolf
               moon williamsburg kogi unicorn. Bicycle rights hella etsy edison
